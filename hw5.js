@@ -65,5 +65,26 @@ console.log('Test 1..2...3....')
   console.log(false == false)                                               //True
   console.log(e == 'Kevin');                                                //True
   console.log(a < b < c);                                                   //True
-  console.log(a ==! a ==! d);                                                 //
+  console.log(a ==! a ==! d);                                               //True
   console.log(48 == '48');                                                  //True
+
+//The farm
+//Declare a variable animal. Set it to be either "cow" or something else.
+//Write code that will print out "mooooo" if the it is equal to cow.
+//Change your code so that if the variable animal is anything other 
+//than a cow, it will print "Hey! You're not a cow."
+//Commit.
+
+var cow = "moooo"
+var chicken = "bawk bawk"
+
+function printSound (animal){
+    if (animal === "cow"){
+        console.log(cow + " " + "I am THE COW");
+    }
+    if(animal === "chicken"){
+        console.log(chicken +" " +"Hey! You're not a cow.");
+    }
+}
+printSound("chicken")  //input cow or chicken console 
+
