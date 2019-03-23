@@ -74,7 +74,10 @@ console.log('Test 1..2...3....')
 //Change your code so that if the variable animal is anything other 
 //than a cow, it will print "Hey! You're not a cow."
 //Commit.
-
+/*
+// REMEMBER f(x) = x + 3   // f(3) = 3 + 3 //answer 6
+//printSound(x or animal)=
+    //if (animal)
 var cow = "moooo"
 var chicken = "bawk bawk"
 
@@ -86,5 +89,32 @@ function printSound (animal){
         console.log(chicken +" " +"Hey! You're not a cow.");
     }
 }
-printSound("chicken")  //input cow or chicken console 
+printSound("chicken")  //input cow or chicken console */
 
+//Driver's Ed
+//Make a variable that will hold a person's age. Be semantic.
+
+//Write code that will print out "Here are the keys", if the age
+// is 16 years or older.
+//If the age is younger than 16, 
+//a message should print "Sorry, you're too young."
+
+var age ;
+
+function ageCheck(age){
+    if(age >= 16){
+        console.log(age + " " +"Here are the keys.");
+    } else
+        {
+        console.log(age + " " + "Sorry, you're too young.");
+    }
+}
+ageCheck(18) 
+
+
+//f(x)= x+1
+function findX(c){
+    c = c + 1
+    console.log(c);
+}
+findX(2)
