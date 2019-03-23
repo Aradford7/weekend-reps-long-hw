@@ -137,4 +137,15 @@ findX(2)
     for (let i = 12; i <= 4000; i+=3) {
         console.log(i);
     }
+//Get Even
+//1) Print out the even number that are within the range of 1 - 100.
+    for (let i = 1; i <= 100; i++){
+        if (i % 2 === 0){
+        console.log(i + " " +"is an even number");
+            }
+        if (i % 2 === 1){
+            console.log(i + " "+ "is an odd number");
+        }
+    }
 
+//2) Adjust your code to add a message next to even number only that says:"<-- is an even number".
