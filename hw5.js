@@ -610,3 +610,32 @@ console.log(user)
     console.log(user);
     console.log(user.purchased[2]);
 //Commit
+
+
+//Object-within-object
+//Remember that you can add an object to an existing object in the same way that you can add 
+//any new property/value pair.
+//If we want to give our user a friend with a name and age, we could write:
+//When we console.log user, we would see the friend object added to our user object.
+user.friend = {
+    name: "Jaejoong Kim",
+    age:33,
+    location:"Chungdu",
+    purchased:[],
+}
+//Write a friend object into your user object and give the friend a name, age, location, and
+// purchased array (empty for now)//Console.log just the friend's name//Console.log just the friend's location
+console.log(user.friend.name);
+console.log(user.friend.location);
+
+//CHANGE the friend's age to 55
+user.friend.age =55;
+//The friend has purchased "The One Ring". Use .push() to add "The One Ring" to 
+//the friend's purchased array.
+user.friend.purchased.push("The One Ring");
+//The friend has purchased "A latte". Use .push() to add "A latte" to the friend's
+// purchased array.
+user.friend.purchased.push("Latte");
+//Console.log just "A latte" from the friend's purchased array.
+console.log(user.friend);
+//Commit.
