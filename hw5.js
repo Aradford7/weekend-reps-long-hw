@@ -228,6 +228,18 @@ console.log(sum); */
 //How do you access the 1st element in the array?
         //console.log(randomThings[0]);     //arrays index begin at 0
 //Change the value of "Hello" to "World".
- const randomThings = [1, 10, "Hello", true];
+ /*const randomThings = [1, 10, "Hello", true];
     randomThings[2] = "World";
-console.log(randomThings[2]);
+    console.log(randomThings[2]); */
+
+//Change values
+//Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//What would you write to access the 3rd element of the array?
+    const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+        console.log(ourClass[4]);
+//Change the value of "Github" to "Octocat"
+    ourClass[4] = "Octocat";
+    console.log(ourClass[4]);
+//Add a new element, "Cloud City" to the array.
+    ourClass.push("Cloud City");
+    console.log(ourClass[5]);
