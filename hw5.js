@@ -173,7 +173,7 @@ findX(2)
 //Write code that will save the sum of all the numbers between 1 - 10 to a variable 
 //called bank_account.
 //Check your work! Your bank_account should have $55 in it.
-
+/*
 var bank_account
 for (bank_account = 0, i = 1;
     i <= 10;
@@ -183,7 +183,7 @@ console.log(bank_account);    //Answer 55 */
 //You got a bonus! Your pay is now doubled each week. Write code that will save 
 //the sum of all the numbers between 1 - 100 multiplied by 2.
 //Check your work! Your bank_account should have $10,100 in it.
-
+/*
 var bank_account
 for (bank_account = 0, i = 1;
     i <= 100;
@@ -191,19 +191,18 @@ for (bank_account = 0, i = 1;
 console.log(bank_account);
 
 //Answer 10,100
-// Commit Saving Account ANSWERED
-
+*/
 //Multiples of 3 and 5
 //If we list all the natural numbers below 10 that are multiples of 3 or 5, 
 //we get 3, 5, 6 and 9. The sum of these multiples is 23.
 //Find the sum of all the multiples of 3 or 5 below 1000. 
-/*
+
 for (
     var sum = 0, i = 1;
     i <= 1000;
-    (i % 3 && i % 5) && (sum += i), i++
+    !(i % 3 && i % 5) && (sum += i), i++
 );
-console.log(sum); */
+console.log(sum); 
 //Answer 233168  
 //Commit Multiples of 3 and 5 Answered
 
