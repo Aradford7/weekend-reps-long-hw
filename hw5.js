@@ -656,4 +656,29 @@ console.log(user.friend.purchased.length)
     for(let i=0; i < user.friend.purchased.length; i++){
         console.log(user.friend.purchased[i])
     }
+
+//Commit.
+
+// Functions can operate on objects
+//Write a single function updateUser that takes no parameters. When the function is run,
+// it should:it should increment the user's age by 1,make the user's name uppercase
+//The function does not need a return statement, it will merely modify the user object.
+function updateUser(){
+    user.name=user.name.toUpperCase(user.name);
+    user.age+1
+}
+updateUser()
+console.log(user.name)
+console.log(user.age)
+//Write a function oldAndLoud that performs the exact same tasks as updateUser, 
+//but instead of hard-coding it to only work on our user object, make it take a parameter person,
+// and have it modify the object that is passed in as an argument when the function is called. 
+//Call your oldAndLoud function with user as the argument.
+function oldAndLoud(person){
+    person.name=person.name.toUpperCase(person.name)
+    person.age++
+}
+oldAndLoud(user.friend)
+console.log(user.friend.name)
+console.log(user.friend.age)
 //Commit.
