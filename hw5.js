@@ -530,7 +530,7 @@ function reverseWordOrder(str){
     // "comb my on Lâncome use I"
     
 //Commit.*/
-
+/*
 //Get down and dirty with Math.random()
 
         function randomNum(){
@@ -560,4 +560,19 @@ const quotes = ['Hi',"Hola","Nihao","Annyeong","Konnichiwa","Bonjour"];
             console.log(quotes[i])
         }
         getRandomElement()
+//Commit.*/
+
+//Objects
+//Make a user object
+//Create an object called user.
+//Write in to the object the key-value pairs for name, email, age, and purchased. 
+//Set the value of purchased to an empty array []. Set the other values to whatever you 
+//would like.
+const user = {
+    name: "Jae",
+    email: "jaejjv3@gmail.com",
+    age: 26,
+    purchased:[]
+}
+console.log(user)
 //Commit.
