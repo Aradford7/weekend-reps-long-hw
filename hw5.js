@@ -221,6 +221,13 @@ console.log(sum); */
 
 //B. Easy Does It
 //Create an array that contains three quotes and store it in a variable called quotes.
-var quotes = ["Hi", "How Are You", "Good Bye"];
+//var quotes = ["Hi", "How Are You", "Good Bye"];
 
-adsadad
+//C. Accessing elements
+//Given the following array const randomThings = [1, 10, "Hello", true]
+//How do you access the 1st element in the array?
+        //console.log(randomThings[0]);     //arrays index begin at 0
+//Change the value of "Hello" to "World".
+ const randomThings = [1, 10, "Hello", true];
+    randomThings[2] = "World";
+console.log(randomThings[2]);
