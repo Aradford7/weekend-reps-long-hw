@@ -502,10 +502,34 @@ console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanut
 //The transmogrified result of three numbers is the product of the first two numbers, 
 //raised to the power of the third number.
 //For example, the transmogrified result of 5, 3, and 2 is (5 times 3) to the power of 2 is 225.
-    function transmogrify(num1, num2, pow){
+  /*
+function transmogrify(num1, num2, pow){
         console.log(Math.pow((num1 * num2),pow));
     }
-    console.log(transmogrify(5, 3, 2));
+    console.log(transmogrify(5, 3, 2));  //Answer 225 */
+
+//reverseWordOrder v2
+// Without using .split(), .reverse(), or .join(), write a function reverseWordOrder 
+//that accepts a single argument, a string. The function should return a string with the 
+//order of the words reversed. Don't worry about punctuation.
+ //"hello world"[6] "w"
+//That and basic loops and variables and arrays are all you need to solve this without 
+//the Array methods.
+    
+function reverseWordOrder(str){
+    var newString 
+    for(var i = str.length - 1; i >=0; i--){
+        newString += str[i];
+    }
+    console.log(newString);
+}
+    reverseWordOrder("Ishmael me Call");
+    // "Call me Ishmael"
+    
+    reverseWordOrder("I use Lâncome on my comb");
+    // "comb my on Lâncome use I"
+    
+//Commit.
 
 
 
