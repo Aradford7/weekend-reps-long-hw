@@ -432,6 +432,7 @@ isVowel('b');
     }
 getTwoLengths("Hank","Hippopopalous");
 */
+/*
 //getMultipleLengths
 //Write a function getMultipleLengths that accepts a single parameter as an argument:
 // an array of strings. The function should return an array of numbers where each number 
@@ -465,3 +466,30 @@ console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
         }
     }
 console.log(maxOfThree(6, 9, 1));
+*/
+
+//printLongestWord
+//Write a function printLongestWord that accepts a single argument, an array of strings. 
+//The method should return the longest word in the array. In case of a tie, the method should 
+//return the word that appears first in the array.
+//words.length
+    function printLongestWord(word){
+        let n=word[0];
+        let first=[];
+        for(let i=0; i < word.length; i++){
+            if(n.length !==word[i].length){
+                n=word[i];
+            }
+            else{
+                first=word[i]
+            }
+            if (n.length===first.length){
+                console.log(n)
+            }
+            else{
+                console.log(first)
+            }
+        }
+    }
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
