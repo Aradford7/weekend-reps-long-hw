@@ -445,3 +445,23 @@ getTwoLengths("Hank","Hippopopalous");
     }
 
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+
+//maxOfThree
+//Define a function maxOfThree that takes three numbers as arguments and returns 
+//the largest of them. If all numbers are the same, it doesn't matter which one is returned. 
+//If the two largest numbers are the same, one of them should be returned.
+    function maxOfThree(num1, num2, num3){
+        if(num1 >= num2 && num1 >= num3){
+            console.log(num1+ " "+"is the largest")
+        }
+        else{
+            if(num2 >= num3){
+                console.log(num2+" "+"is the largest");
+            }
+            else{
+                console.log(num3+ " "+ "is the largest");
+            }
+        }
+    }
+console.log(maxOfThree(6, 9, 1));
