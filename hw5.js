@@ -389,3 +389,12 @@ var print;
       console.log(print + " is cool");
   }
 printCool("Captain Reynolds");
+
+//calculateCube
+//Write a function calculateCube that takes a single number and prints the volume of 
+//a cube made from that number.
+
+  function calculateCube(num){
+      console.log(Math.pow(num,3))
+  }
+console.log(calculateCube(5)); //125
