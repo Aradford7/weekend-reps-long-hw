@@ -568,6 +568,7 @@ const quotes = ['Hi',"Hola","Nihao","Annyeong","Konnichiwa","Bonjour"];
 //Write in to the object the key-value pairs for name, email, age, and purchased. 
 //Set the value of purchased to an empty array []. Set the other values to whatever you 
 //would like.
+
 const user = {
     name: "Jae",
     email: "jaejjv3@gmail.com",
@@ -575,4 +576,14 @@ const user = {
     purchased:[]
 }
 console.log(user)
+//Commit.
+
+//Update the user
+//Our user has changed his or her email address. Without changing the original user object, 
+//update the email value to a new email address.
+//Our user has had a birthday! Without changing the original user object, increment
+// the age value using the postfix operator. Hint: age++
+    user.email= "jaejaejae@gmail.com"
+    user.age++
+    console.log(user);
 //Commit.
