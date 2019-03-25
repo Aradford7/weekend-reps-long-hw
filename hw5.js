@@ -245,7 +245,7 @@ console.log(sum); */
 //Add a new element, "Cloud City" to the array.
     ourClass.push("Cloud City");
     console.log(ourClass[5]);
-*/
+*//*
 //Mix It Up
 //Given the following array: const myArray = [5, 10, 500, 20]
 //Add the string "Egon" to the end of the array. 
@@ -268,4 +268,22 @@ console.log(sum); */
         newArr = myArray;
         myArray.reverse(myArray);
         console.log(newArr);
-//Commit Mix it up answered
+*/
+
+//Biggie Smalls
+//Create a variable that contains an integer.
+//Write an if ... else statement that:
+//console.log()s "little number" if the number is entered is less than 100
+//console.log()s big number if the number is greater than or equal to 100.
+//Commit.
+
+var integer = 10;
+if (integer <= 100){
+    console.log('Little Number');
+}
+    
+else{
+    console.log('Big Number');
+}
+    
+
