@@ -293,7 +293,7 @@ else{
 //If the number entered is more than 10, log big number.
 //Otherwise, log "monkey". 
 //Commit Monkey in the Middle Answered
-
+/*
 var integer = 8;
 if (integer <= 5);{
     console.log('Little Number');
@@ -304,4 +304,72 @@ if (integer > 10){
 else{
     console.log('Monkey');
 }
+*/
+
+//What's in Your Closet?
+//What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, 
+//log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" 
+//to the console.
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+    
+    console.log("Kristyn is rocking that"+" "+kristynsCloset[3] +" "+"today!");
+//Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+    kristynsCloset.splice(6,0, "raybans");
+    console.log(kristynsCloset);
+//Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead 
+//of yellow.
+    kristynsCloset.splice(5,1, "stained knit hat");
+    console.log(kristynsCloset);
+//Put together an outfit for Thom! Using bracket notation, access the first element
+// in Thom's shirts array.
+const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+  let outfit = [];
+  outfit.push(thomsCloset[0][0])
+  console.log(outfit)
+  console.log(thomsCloset)
+//In the same way, access one item from Thom's pants array.
+  outfit.push(thomsCloset[1][0])
+  console.log(outfit)
+  console.log(thomsCloset)
+//Access one item from Thom's accessories array.
+  outfit.push(thomsCloset[2][2])
+  console.log(outfit)
+  console.log(thomsCloset)
+//Log a sentence about what Thom's wearing. Example: "Thom is looking fierce 
+//in a grey button-up, jeans and wool scarf!"
+  console.log("Thom is looking fierce in a"+" "+outfit[0]+" "+outfit[1]+" "+ outfit[2]);
+//Get more specific about what kind of PJs Thom's wearing this winter. 
+//Modify the name of his PJ pants to Footie Pajamas.
+    thomsCloset[1][2]= "Footie Pajamas";
+    console.log(thomsCloset[1][2])
+//Commit Whats in Your closet answered
+
+
+
 
