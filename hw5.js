@@ -515,7 +515,7 @@ function transmogrify(num1, num2, pow){
  //"hello world"[6] "w"
 //That and basic loops and variables and arrays are all you need to solve this without 
 //the Array methods.
-    
+/*
 function reverseWordOrder(str){
     var newString 
     for(var i = str.length - 1; i >=0; i--){
@@ -529,8 +529,35 @@ function reverseWordOrder(str){
     reverseWordOrder("I use Lâncome on my comb");
     // "comb my on Lâncome use I"
     
+//Commit.*/
+
+//Get down and dirty with Math.random()
+
+        function randomNum(){
+            console.log(Math.random(10) * 10); //Write a function that will return a random integer between 1                            
+        }                                     //and 10. Test it.
+        randomNum()
+
+  //Write a function that will return a random integer between 10 and 100. Test it.
+        function getRandomInteger(min,max){
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            console.log(Math.floor(Math.random()*(max-min))+min);
+        }
+        getRandomInteger(10,100);
+//Write a function that will return a random number between 532 and 13267. Test it.
+        getRandomInteger(532,13267);
+//Write a function that will return a random number between 1 and 10. Test it.
+        getRandomInteger(1,10);
+//Add a few more quotes to the quotes array from question III-B-1 above. Write a 
+//function that will take an array as a parameter, and return a random element from that 
+//array. Call your function a few times, passing in the quotes array. Give it a nice semantic 
+//name like getRandomElement.
+const quotes = ['Hi',"Hola","Nihao","Annyeong","Konnichiwa","Bonjour"];
+        function getRandomElement(){
+            i=Math.floor(Math.random()*5)
+            console.log(i)
+            console.log(quotes[i])
+        }
+        getRandomElement()
 //Commit.
-
-
-
-
