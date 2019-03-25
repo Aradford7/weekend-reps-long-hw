@@ -374,9 +374,18 @@ const thomsCloset = [
 //printGreeting
 //Do you think you could write a function called printGreeting with a parameter 
 //name that returns a greeting with the argument interpolated into the greeting?
+
 var print;
   function printGreeting(print){
-      console.log(print)
+      console.log("Hi, I am" + " " + print);
   }
 console.log(printGreeting("Slimer"));
 
+//printCool
+//Write a function printCool that accepts one parameter, name as an argument. 
+//The function should print the name and a message saying that that person is cool.
+var print;
+  function printCool(print){
+      console.log(print + " is cool");
+  }
+printCool("Captain Reynolds");
