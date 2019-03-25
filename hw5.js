@@ -423,6 +423,7 @@ isVowel('b');
 //Write a function getTwoLengths that accepts two parameters (strings). 
 //The function should return an array of numbers where each number is the length of the 
 //corresponding string.
+/*
     function getTwoLengths(str1, str2){
         let parameters = [];
         parameters.push(str1.length);
@@ -430,4 +431,17 @@ isVowel('b');
         console.log(parameters)
     }
 getTwoLengths("Hank","Hippopopalous");
+*/
+//getMultipleLengths
+//Write a function getMultipleLengths that accepts a single parameter as an argument:
+// an array of strings. The function should return an array of numbers where each number 
+//is the length of the corresponding string.
+    function getMultipleLengths(array){
+        newArray = [];
+        for(i=0; i < array.length; i++){
+            newArray.push(array[i].length)
+        }
+        console.log(newArray)
+    }
 
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
