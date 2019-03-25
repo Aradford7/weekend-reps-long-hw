@@ -209,16 +209,18 @@ console.log(sum); */
 //Arrays & Control flow
 //A. Talk about it:
 //What are the things in an array called?
-        //
+        //elements
 //Do Arrays guarantee those things will be in order?
-        //
+        //Yes unless a function is called upon like split, sort, join, reverse, or 
+        //a function that affects the index order
 //What real-life thing could you model with an array?
-        //
+        //list for grocery or anything mostly, they are just the elements you want in 
+        //an array
 //Commit Array and Control Flow Answered
 
 
 //B. Easy Does It
 //Create an array that contains three quotes and store it in a variable called quotes.
+var quotes = ["Hi", "How Are You", "Good Bye"];
 
-
-//Commit Easy Does it Answered
+adsadad
