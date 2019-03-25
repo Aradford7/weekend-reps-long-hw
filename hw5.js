@@ -74,7 +74,7 @@ console.log('Test 1..2...3....')
 //Change your code so that if the variable animal is anything other 
 //than a cow, it will print "Hey! You're not a cow."
 //Commit.
-
+/*
 // REMEMBER f(x) = x + 3   // f(3) = 3 + 3 //answer 6
 //printSound(x or animal)=
     //if (animal)
@@ -90,7 +90,7 @@ function printSound (animal){
     }
 }
 printSound("chicken")  //input cow or chicken console 
-
+*/
 //Driver's Ed
 //Make a variable that will hold a person's age. Be semantic.
 
@@ -98,7 +98,7 @@ printSound("chicken")  //input cow or chicken console
 // is 16 years or older.
 //If the age is younger than 16, 
 //a message should print "Sorry, you're too young."
-
+/*
 var age ;
 
 function ageCheck(age){
@@ -118,7 +118,7 @@ function findX(c){
     console.log(c);
 }
 findX(2)
-
+*//*
 //Loops
 //Remember: USE let when you initialize your loops!
 //This is GOOD: for( let i + 0; i < 100; i++)
@@ -137,7 +137,8 @@ findX(2)
     for (let i = 12; i <= 4000; i+=3) {
         console.log(i);
     }
-
+*/
+/*
 //Get Even
 //1) Print out the even number that are within the range of 1 - 100.
 //2) Adjust your code to add a message next to even number only 
@@ -152,13 +153,13 @@ findX(2)
         }
     }
 
-
+*/
 //Give me Five
 //1.For the numbers 0 - 100, print out "I found a number. High five!" 
 //2. Add to the code from above to print out "I found a number. 
 //Three is a crowd" if the number is a multiple of three.
 // Three is a crowd" if the number is a multiple of three.
-
+/*
 //if the number is a multiple of five or three.
    for (let i = 0; i <=100; i++){
         if(i % 5 === 0){
@@ -168,7 +169,7 @@ findX(2)
             console.log(i + " "+"Three is a crowd!")
         }
     }
-
+*/
 //Savings account
 //Write code that will save the sum of all the numbers between 1 - 10 to a variable 
 //called bank_account.
@@ -232,6 +233,7 @@ console.log(sum); */
     randomThings[2] = "World";
     console.log(randomThings[2]); */
 
+    /*
 //Change values
 //Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 //What would you write to access the 3rd element of the array?
@@ -243,3 +245,27 @@ console.log(sum); */
 //Add a new element, "Cloud City" to the array.
     ourClass.push("Cloud City");
     console.log(ourClass[5]);
+*/
+//Mix It Up
+//Given the following array: const myArray = [5, 10, 500, 20]
+//Add the string "Egon" to the end of the array. 
+//Add another string of your choice to the end of the array.
+    const myArray = [5, 10, 500, 20]
+        myArray.push("Egon","Retsuko");
+        console.log(myArray[4]);
+        console.log(myArray[5]);
+//Remove the 5 from the beginning of the array.
+        myArray.splice(0,1);  //first is position, second how many take out, third what ur gona add
+        console.log(myArray);
+//Add the string "Bob Marley" to the beginning of the array.
+        myArray.splice(0,0,'Bob Marley');
+        console.log(myArray);
+//Remove the string of your choise from the end of the array.
+        myArray.pop();
+        console.log(myArray);
+//Reverse this array using Array.prototype.reverse(). Did you mutate the array? 
+//What does mutate mean? Did the .reverse() method return anything?
+        newArr = myArray;
+        myArray.reverse(myArray);
+        console.log(newArr);
+//Commit Mix it up answered
