@@ -305,7 +305,7 @@ else{
     console.log('Monkey');
 }
 */
-
+/*
 //What's in Your Closet?
 //What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, 
 //log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" 
@@ -369,7 +369,14 @@ const thomsCloset = [
     thomsCloset[1][2]= "Footie Pajamas";
     console.log(thomsCloset[1][2])
 //Commit Whats in Your closet answered
-
-
-
+*/
+//Functions
+//printGreeting
+//Do you think you could write a function called printGreeting with a parameter 
+//name that returns a greeting with the argument interpolated into the greeting?
+var print;
+  function printGreeting(print){
+      console.log(print)
+  }
+console.log(printGreeting("Slimer"));
 
