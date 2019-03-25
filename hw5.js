@@ -276,7 +276,7 @@ console.log(sum); */
 //console.log()s "little number" if the number is entered is less than 100
 //console.log()s big number if the number is greater than or equal to 100.
 //Commit.
-
+/*
 var integer = 10;
 if (integer <= 100){
     console.log('Little Number');
@@ -285,5 +285,23 @@ if (integer <= 100){
 else{
     console.log('Big Number');
 }
-    
+*/ 
+
+//Monkey in the Middle
+//Write an if ... else if ... else statement:
+//console.log() little number if the number entered is less than 5.
+//If the number entered is more than 10, log big number.
+//Otherwise, log "monkey". 
+//Commit Monkey in the Middle Answered
+
+var integer = 8;
+if (integer <= 5);{
+    console.log('Little Number');
+}
+if (integer > 10){
+    console.log('Big Number');
+}   
+else{
+    console.log('Monkey');
+}
 
