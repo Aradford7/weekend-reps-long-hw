@@ -374,7 +374,7 @@ const thomsCloset = [
 //printGreeting
 //Do you think you could write a function called printGreeting with a parameter 
 //name that returns a greeting with the argument interpolated into the greeting?
-
+/*
 var print;
   function printGreeting(print){
       console.log("Hi, I am" + " " + print);
@@ -389,7 +389,8 @@ var print;
       console.log(print + " is cool");
   }
 printCool("Captain Reynolds");
-
+*/
+/*
 //calculateCube
 //Write a function calculateCube that takes a single number and prints the volume of 
 //a cube made from that number.
@@ -398,3 +399,20 @@ printCool("Captain Reynolds");
       console.log(Math.pow(num,3))
   }
 console.log(calculateCube(5)); //125
+*/
+
+
+//isVowel
+//Write a function isVowel that takes a character (i.e. a string of length 1) and returns 
+//true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+  function isVowel(abc){
+      let str=(abc);
+      console.log(str)
+      if(str==='A'||str==='E'||str==='I'||str==="O"||str==='U'){
+          console.log(abc +" "+ 'is a vowel')
+      }
+      else{
+          console.log(abc +" " +'is NOT a vowel')
+      }
+  }
+isVowel('b');
