@@ -639,3 +639,21 @@ user.friend.purchased.push("Latte");
 //Console.log just "A latte" from the friend's purchased array.
 console.log(user.friend);
 //Commit.
+
+//Loops
+//Write a for loop that iterates over the User's purchased array (NOT the friend's purchased 
+//array), and prints each element to the console.
+
+console.log(user)
+console.log(user.purchased.length)
+    for(let i=0; i < user.purchased.length; i++){
+        console.log(user.purchased[i])
+    }
+//Write a for loop that iterates over the Friend's purchased array, and prints each element 
+//to the console.
+console.log(user.friend)
+console.log(user.friend.purchased.length)
+    for(let i=0; i < user.friend.purchased.length; i++){
+        console.log(user.friend.purchased[i])
+    }
+//Commit.
