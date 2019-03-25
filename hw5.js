@@ -74,7 +74,7 @@ console.log('Test 1..2...3....')
 //Change your code so that if the variable animal is anything other 
 //than a cow, it will print "Hey! You're not a cow."
 //Commit.
-/*
+
 // REMEMBER f(x) = x + 3   // f(3) = 3 + 3 //answer 6
 //printSound(x or animal)=
     //if (animal)
@@ -89,7 +89,7 @@ function printSound (animal){
         console.log(chicken +" " +"Hey! You're not a cow.");
     }
 }
-printSound("chicken")  //input cow or chicken console */
+printSound("chicken")  //input cow or chicken console 
 
 //Driver's Ed
 //Make a variable that will hold a person's age. Be semantic.
@@ -137,8 +137,12 @@ findX(2)
     for (let i = 12; i <= 4000; i+=3) {
         console.log(i);
     }
+
 //Get Even
 //1) Print out the even number that are within the range of 1 - 100.
+//2) Adjust your code to add a message next to even number only 
+//that says:"<-- is an even number".
+
     for (let i = 1; i <= 100; i++){
         if (i % 2 === 0){
         console.log(i + " " +"is an even number");
@@ -148,13 +152,15 @@ findX(2)
         }
     }
 
-//2) Adjust your code to add a message next to even number only 
-//that says:"<-- is an even number".
 
 //Give me Five
 //1.For the numbers 0 - 100, print out "I found a number. High five!" 
-//if the number is a multiple of five.
-    for (let i = 0; i <=100; i++){
+//2. Add to the code from above to print out "I found a number. 
+//Three is a crowd" if the number is a multiple of three.
+// Three is a crowd" if the number is a multiple of three.
+
+//if the number is a multiple of five or three.
+   for (let i = 0; i <=100; i++){
         if(i % 5 === 0){
             console.log(i + " "+"I found a number. High five!")
         }
@@ -162,6 +168,58 @@ findX(2)
             console.log(i + " "+"Three is a crowd!")
         }
     }
-//2. Add to the code from above to print out "I found a number. 
-//Three is a crowd" if the number is a multiple of three.
 
+//Savings account
+//Write code that will save the sum of all the numbers between 1 - 10 to a variable 
+//called bank_account.
+//Check your work! Your bank_account should have $55 in it.
+
+var bank_account
+for (bank_account = 0, i = 1;
+    i <= 10;
+    (bank_account += i), i++);
+console.log(bank_account);    //Answer 55 */
+    
+//You got a bonus! Your pay is now doubled each week. Write code that will save 
+//the sum of all the numbers between 1 - 100 multiplied by 2.
+//Check your work! Your bank_account should have $10,100 in it.
+
+var bank_account
+for (bank_account = 0, i = 1;
+    i <= 100;
+    (bank_account += i*2), i++);
+console.log(bank_account);
+
+//Answer 10,100
+// Commit Saving Account ANSWERED
+
+//Multiples of 3 and 5
+//If we list all the natural numbers below 10 that are multiples of 3 or 5, 
+//we get 3, 5, 6 and 9. The sum of these multiples is 23.
+//Find the sum of all the multiples of 3 or 5 below 1000. 
+/*
+for (
+    var sum = 0, i = 1;
+    i <= 1000;
+    (i % 3 && i % 5) && (sum += i), i++
+);
+console.log(sum); */
+//Answer 233168  
+//Commit Multiples of 3 and 5 Answered
+
+//Arrays & Control flow
+//A. Talk about it:
+//What are the things in an array called?
+        //
+//Do Arrays guarantee those things will be in order?
+        //
+//What real-life thing could you model with an array?
+        //
+//Commit Array and Control Flow Answered
+
+
+//B. Easy Does It
+//Create an array that contains three quotes and store it in a variable called quotes.
+
+
+//Commit Easy Does it Answered
