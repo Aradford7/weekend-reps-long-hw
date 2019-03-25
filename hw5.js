@@ -405,6 +405,7 @@ console.log(calculateCube(5)); //125
 //isVowel
 //Write a function isVowel that takes a character (i.e. a string of length 1) and returns 
 //true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+/*
   function isVowel(abc){
       let str=(abc);
       console.log(str)
@@ -416,3 +417,17 @@ console.log(calculateCube(5)); //125
       }
   }
 isVowel('b');
+*/
+
+//getTwoLengths
+//Write a function getTwoLengths that accepts two parameters (strings). 
+//The function should return an array of numbers where each number is the length of the 
+//corresponding string.
+    function getTwoLengths(str1, str2){
+        let parameters = [];
+        parameters.push(str1.length);
+        parameters.push(str2.length);
+        console.log(parameters)
+    }
+getTwoLengths("Hank","Hippopopalous");
+
